@@ -44,13 +44,6 @@ Untuk menjalankan proyek ini, Anda membutuhkan instalasi Python (>= 3.8). Beriku
    pip install -r requirements.txt
    ```
 
-3. **Cara Menjalankan Skrip:**
-   Setelah semua dependensi terinstal, Anda dapat menjalankan *dashboard* prediktif yang interaktif melalui aplikasi Streamlit.
-   ```bash
-   streamlit run app.py
-   ```
-   Lakukan *input* data yang diperlukan, kemudian klik tombol **Predict Dropout Risk**.
-
 Selain itu, Anda juga dapat membuka file `notebook.ipynb` melalui *Jupyter Notebook* atau *VS Code* (dengan ekstensi Jupyter) untuk melihat alur proses mulai dari pembacaan data hingga evaluasi model.
 
 ## Business Dashboard
@@ -68,6 +61,16 @@ Menggunakan Metabase dengan kredensial:
 - Terdapat profil tingkat *dropout* yang berbeda antar negara; mahasiswa yang berasal dari Kanada dan Lithuania memiliki *dropout rate* tertinggi sekitar 16.5%.
 - Mahasiswa yang memiliki status *debtor* (hutang) memiliki kecenderungan melakukan *dropout* yang sangat tinggi (62%).
 - Status pernikahan memiliki korelasi dengan *dropout*; mahasiswa dengan status bercerai (*divorced*) memiliki *dropout rate* hingga 67%.
+
+## Menjalankan Sistem Machine Learning
+
+**Cara Menjalankan Skrip:**
+   Setelah semua dependensi terinstal, Anda dapat menjalankan *dashboard* prediktif yang interaktif melalui aplikasi Streamlit.
+   ```bash
+   streamlit run app.py
+   ```
+   Lakukan *input* data yang diperlukan, kemudian klik tombol **Predict Dropout Risk**.
+**Atau gunakan link berikut: https://student-dropout-analysis2.streamlit.app**
 
 ## Conclusion
 Dari analisis eksplorasi data, *dashboard*, dan model di *notebook*, ditarik beberapa kesimpulan utama mengenai faktor penyebab mahasiswa *dropout*:
